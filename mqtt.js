@@ -5,12 +5,14 @@ const { Pool } = require('pg');
 const brokerUrl = 'mqtt://test.mosquitto.org'; // Substitua pelo endereço do seu broker MQTT
 const client = mqtt.connect(brokerUrl);
 
+//testando
+
 
 // Configurações do PostgreSQL
 const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'teste', // Nome do seu banco de dados
+    database: 'teste', // asdha
     password: 'postgres',
     port: 5432,
 });
